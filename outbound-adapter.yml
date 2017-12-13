@@ -1,0 +1,14 @@
+server:
+  port: 8082   # HTTP (Tomcat) port
+
+b2b:
+  outbound:
+    ftp:
+      address: ftp://admin@35.205.207.155?password=
+      password: {cipher}80b21cf622a38aa3a1c91ac21d60313d861710b3092ccdf08003836fb5d0a00b
+
+logging:
+  level:
+    org.apache.camel.component.file: TRACE
+    com.nextlevel.outbound.adapter: TRACE
+        

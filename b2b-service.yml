@@ -1,0 +1,6 @@
+server:
+  port: 8081   # HTTP (Tomcat) port
+
+logging:
+    level:
+        org.apache.camel.component.rabbitmq: TRACE  

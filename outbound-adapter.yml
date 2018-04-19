@@ -4,8 +4,8 @@ server:
 b2b:
   outbound:
     ftp:
-      address: ftp://admin@35.205.207.155?password=
-      password: {cipher}80b21cf622a38aa3a1c91ac21d60313d861710b3092ccdf08003836fb5d0a00b
+      address: ftp://unaux_20918267@185.27.134.11?passiveMode=true&password=
+      password: {cipher}ebd539c4b336d9db62938f555db832561c32b79656642021e99fc2163d41ae95
 
 logging:
   level:

@@ -1,25 +1,23 @@
 spring:
   devtools:
-     remote:
-        secret: Support1
+    remote:
+      secret: Support1
   jpa:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
   datasource:
-     driverClassName: org.postgresql.Driver
-     url: jdbc:postgresql://35.195.112.211:5432/postgres
-     username: docker
-     password: {cipher}f2514080ea54a39e88d938e4b3ee8d8970daf07d04c4b1871332536ce03b4462
+      driverClassName: org.postgresql.Driver
+      url: jdbc:postgresql://35.195.112.211:5432/postgres
+      username: docker
+      password: {cipher}f2514080ea54a39e88d938e4b3ee8d8970daf07d04c4b1871332536ce03b4462
   data:
     elasticsearch:
       cluster-nodes: 35.205.27.133:9200  
 b2b:
-   jmsConfig: rabbitmq://35.205.158.134:5672/
-  elasticsearch:
-    host: 35.205.27.133
-    port: 9200
-    username: elastic
-    password: elastic
-
-test: {cipher}dc81a31f48bbc72bd91e4d172aa0d2548329af5cc31287d2c4e6a793878d204c
+    jmsConfig: rabbitmq://35.205.158.134:5672/
+    elasticsearch:
+      host: 35.205.27.133
+      port: 9200
+      username: elastic
+      password: {cipher}8431ee2ee77cd8dd48f01824dd3181227bcb6c501520edf74c7c8cb503a9f1a3

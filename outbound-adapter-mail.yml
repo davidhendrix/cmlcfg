@@ -1,0 +1,12 @@
+# B2B Config
+b2b:
+  outbound:
+    mail:
+      from: nextgentest@mail.de
+      server: smtps://nextgentest@smtp.mail.de?password=somePass
+      body: Dies ist der Mail Body
+      to:
+        edifact: nextgentest@mail.de
+        aperak: nextgentest@mail.de
+        control: nextgentest@mail.de
+        idoc: nextgentest@mail.de

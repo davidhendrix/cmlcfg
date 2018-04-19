@@ -1,0 +1,5 @@
+# B2B Config
+b2b:
+  outbound:
+    file:
+      directory: outbound

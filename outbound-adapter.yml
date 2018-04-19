@@ -1,14 +1,8 @@
 server:
   port: 8082   # HTTP (Tomcat) port
 
-b2b:
-  outbound:
-    ftp:
-      address: ftp://unaux_20918267@185.27.134.11?passiveMode=true&password=
-      password: "{cipher}ebd539c4b336d9db62938f555db832561c32b79656642021e99fc2163d41ae95"
-
 logging:
   level:
-    org.apache.camel.component.file: TRACE
-    com.nextlevel.outbound.adapter: TRACE
+    org.apache.camel.component: DEBUG
+    com.nextlevel.outbound.adapter: DEBUG
         

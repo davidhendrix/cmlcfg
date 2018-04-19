@@ -5,7 +5,7 @@ b2b:
   outbound:
     ftp:
       address: ftp://unaux_20918267@185.27.134.11?passiveMode=true&password=
-      password: {cipher}ebd539c4b336d9db62938f555db832561c32b79656642021e99fc2163d41ae95
+      password: "{cipher}ebd539c4b336d9db62938f555db832561c32b79656642021e99fc2163d41ae95"
 
 logging:
   level:

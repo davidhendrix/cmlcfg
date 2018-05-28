@@ -10,7 +10,7 @@ spring:
     driverClassName: org.postgresql.Driver
     url: jdbc:postgresql://35.195.112.211:5432/postgres
     username: docker
-    password: '{cipher}AQCeyBNX/stQdc1IgEm77hOTw5hwTr6s9C2OCsY+ZTUhxjE/vrEbCmjqLZdiXIRjqF95f9YpU1N0h13GldDEENj1kxzRq/c7ARO3Xtf2CbpJkWgSVYBAvYsxueAtLffcw6u4sRdnixhWdG9EM0Jrk31fvdUcvLXM2gJC4tr58uC2VfmGGKqozuHTFhrnU5fQJEUMkgpFppr6M1/BEMqV43wKpQ/mke/wAWdVUoVzvNCm/O7t6/oSPZYVjEwJo0Bn1iGgQaEEFvJt5rg2OkAhOyHfcN9r53wAn631rESqnBjGjiTpJemz36i4R9oC5GbV9BIql9NTAVoaupS2teRvQrZWC8QnzNtVA95Cyw5wb9emWC4NGxbNr5hTN7NVo9gr9NM='
+    password: "{cipher}AQCeyBNX/stQdc1IgEm77hOTw5hwTr6s9C2OCsY+ZTUhxjE/vrEbCmjqLZdiXIRjqF95f9YpU1N0h13GldDEENj1kxzRq/c7ARO3Xtf2CbpJkWgSVYBAvYsxueAtLffcw6u4sRdnixhWdG9EM0Jrk31fvdUcvLXM2gJC4tr58uC2VfmGGKqozuHTFhrnU5fQJEUMkgpFppr6M1/BEMqV43wKpQ/mke/wAWdVUoVzvNCm/O7t6/oSPZYVjEwJo0Bn1iGgQaEEFvJt5rg2OkAhOyHfcN9r53wAn631rESqnBjGjiTpJemz36i4R9oC5GbV9BIql9NTAVoaupS2teRvQrZWC8QnzNtVA95Cyw5wb9emWC4NGxbNr5hTN7NVo9gr9NM="
 
   data:
     elasticsearch:

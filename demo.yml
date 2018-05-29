@@ -3,3 +3,4 @@ b2b:
     cipher:
       lower:
         single: '{cipher}AQCbwJFxL/ebeWYHhLhYMVEKi9/28AK8sPf+coOEnlFxAZDNspcR94CPytL3h3IowZFfqdBs6AfVmGUA1VSgVKBhK6rNWR/glUNXKyh7t9XtnPFm5uWwIIUY9MgyNW/hf0wu4tjz3VJWBvURJ738TureBtV96ldpx1eZLb9mCTQacH0rVMLGjc5dXMYFcccTLwyekNc9Apx61ngJJRaOSGHpV0iEGc75ad2sP0xvD6dwQiopWPDtd4NSIWGWOCiSYECOj6BgSf3W+8AXK1FW8aQ+rRmTGSQ7+b9pj8L4pik/ymyaW+c82uH4kq2DaGloNRWV201QpC9cMien7bNLY6HvT+3vpNaSGS+9zK4sEWeUxqiPXdfAOvPtvUEbj4CtHuo='
+spring.cloud.refresh.enabled: true

@@ -1,8 +1,8 @@
-server:
-  port: 8080   # HTTP (Tomcat) port
-
 logging:
   level:
      org.elasticsearch: INFO
      com.nextlevel.inbound.adapter.controller: INFO
-    
+server:
+  port: 8080   # HTTP (Tomcat) port
+
+

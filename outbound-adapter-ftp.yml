@@ -1,0 +1,7 @@
+# B2B Config
+b2b:
+  outbound:
+    ftp:
+      #address: ftp://admin@35.205.207.155?password=admin
+      #address: ftp://unaux_20918267@185.27.134.11/FTP?password=zbjdf7g171&passiveMode=true
+      address: ftp://testnli@files.000webhost.com?password=testtest2017&passiveMode=true

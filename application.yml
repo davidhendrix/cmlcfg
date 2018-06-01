@@ -23,3 +23,4 @@ b2b:
       port: 9200
       username: elastic
       password: elastic
+    baseRoute: rabbitmq://35.205.158.134:5672/

@@ -1,7 +1,7 @@
 spring:
   devtools:
     remote:
-      secret: Support1
+      secret: '{cipher}AQAIcPwrZoW4UatkayoZ7snHq98BKTOETH4RIyuB0vQFgrdvI3OMQik06M+h82sm3DtaCF8J6I2r3w4nEZJKxVflJ1P5C93MI9S25Ua3R6l/Qwb+yHV0AA+r1f/3wl97NVAMeJm3ToyjHw1OS54gidDlwowU60K3MdXMaqXvOtYIRboA8Wz8ZlC6u7Av2SpyeS/n+hg2+rHFebx/pJ7HgNmkOptiqVcaOPCLgskCg6axw/OTHRyi3mm/KvXNV8/Kd+Awd4+E1EtVm1a6Qcvv5QxLO4w8AXLSXACvtaRlv96ac8w4SranTe2tRCTYu5AzE/wLuO+petGKBkygHACz6tnjciaSO3/hWtSKcUn37iEygFUUPdjwjIUgKf38tzlW5q0='
   jpa:
     properties:
       hibernate:
@@ -10,14 +10,13 @@ spring:
     driverClassName: org.postgresql.Driver
     url: jdbc:postgresql://35.195.112.211:5432/postgres
     username: docker
-    password: docker
-    password2: '{cipher}AQCeyBNX/stQdc1IgEm77hOTw5hwTr6s9C2OCsY+ZTUhxjE/vrEbCmjqLZdiXIRjqF95f9YpU1N0h13GldDEENj1kxzRq/c7ARO3Xtf2CbpJkWgSVYBAvYsxueAtLffcw6u4sRdnixhWdG9EM0Jrk31fvdUcvLXM2gJC4tr58uC2VfmGGKqozuHTFhrnU5fQJEUMkgpFppr6M1/BEMqV43wKpQ/mke/wAWdVUoVzvNCm/O7t6/oSPZYVjEwJo0Bn1iGgQaEEFvJt5rg2OkAhOyHfcN9r53wAn631rESqnBjGjiTpJemz36i4R9oC5GbV9BIql9NTAVoaupS2teRvQrZWC8QnzNtVA95Cyw5wb9emWC4NGxbNr5hTN7NVo9gr9NM='
+    password: '{cipher}AQCeyBNX/stQdc1IgEm77hOTw5hwTr6s9C2OCsY+ZTUhxjE/vrEbCmjqLZdiXIRjqF95f9YpU1N0h13GldDEENj1kxzRq/c7ARO3Xtf2CbpJkWgSVYBAvYsxueAtLffcw6u4sRdnixhWdG9EM0Jrk31fvdUcvLXM2gJC4tr58uC2VfmGGKqozuHTFhrnU5fQJEUMkgpFppr6M1/BEMqV43wKpQ/mke/wAWdVUoVzvNCm/O7t6/oSPZYVjEwJo0Bn1iGgQaEEFvJt5rg2OkAhOyHfcN9r53wAn631rESqnBjGjiTpJemz36i4R9oC5GbV9BIql9NTAVoaupS2teRvQrZWC8QnzNtVA95Cyw5wb9emWC4NGxbNr5hTN7NVo9gr9NM='
 
 b2b:
     jmsConfig: rabbitmq://35.205.158.134:5672/
     elasticsearch:
-      host: 35.205.23.146
+      host: 35.205.147.209
       port: 9200
       username: elastic
-      password: elastic
+      password: '{cipher}AQBbgpy5qtLkzNFxmsW0o1bVjkqv6xbs/GQ46DJQGCCT6cB3uzN8AjJWplzQiiaW+BdqiyafDFh+fSXd4qQyHnOsuJtnOWlI3VP9lI/F7KahsLvpK1EibWOX91PSiWepyEX2v/RmYLsDuwowgxF9iaPnZZSvcUXGdagy2m0GcnEl+VFEG7EvPl52OOdPfpsLv93UCrgcapJxD/KwlHvsF/7qbl2TxBgiu2lTt1epV31m01hvOK0wKaoMMiUzK1hUooyf1TDN1dnxtiUIUXwVMdvgPRuPgwPJTBEe9I/mJmKud5r503JXsOoA5SsYoRoXpTWis4N8o7YMtozRDii+naRk4Foi/Eo730hdceCg33zg9c5oGHdgG5dPpEwDuioZ7eM='
     baseRoute: rabbitmq://35.205.158.134:5672/

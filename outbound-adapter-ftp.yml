@@ -4,5 +4,5 @@ b2b:
     ftp:
       #address: ftp://admin@35.205.207.155?password=admin
       #address: ftp://unaux_20918267@185.27.134.11/FTP?password=zbjdf7g171&passiveMode=true
-      address: ftp://load_test@drachenhort.ddnss.de?password=%password%&passiveMode=true
+      address: ftp://load_test@drachenhort.ddnss.de/load_test?password=%password%&passiveMode=true
       password: "{cipher}AQAIJALsNgmy397dhoa25MsVtJZvxPsfzNxdMxsLOZPNJiDkpxJs8PvDQCT+hLudGbnM6ruubz883Jiu+NgVCagt2vIOePXP+ROPIUtYQQJBRLLc+4f+M929T+Rf8gbIQkT7WQVZf+0NekkmkGbrD/AdVasGJuHa7xL2YdT9MyZ1Ev3U1XrEYnpNM3NPPn2OuKT2E9WYXNqd9wFJg9bp+xM+J3yEBSlTTmu0uQOZHyzka3G/8zCDGhEdIRd1qNGhJ05Pl8GPN+HJ+oHGbeaDEmKPqWhNORbOTBX1GsvRiZUt5E14W9Lm5aqIU7KYDgwjIVBiizo08sWP3u5aTUleSp5sFn93aiw7KtfTzEadQYQkYYinoH0ETHkDGaxsoNV7Ffh/FBCuNrHrv+7omP7/t6e6"

@@ -4,3 +4,4 @@ server:
 logging:
     level:
         org.apache.camel.component.rabbitmq: TRACE  
+        com.nextlevel.b2b.service.processor.ControlProcessor: INFO

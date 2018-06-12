@@ -8,4 +8,4 @@ b2b:
       password: "{cipher}AQCMtadjFs/ZrLJD3sdFm7zwb+ul1+uO3LNaZLBUJwRzfVTXzv0LHFJr+1V/x0K8XjMtyIsWy5zpi5/pNcG/9iGuqyHPNelMXc90HE1dVtJmZPdCQb6hZHYYn5Pfd8Mfb9d5f4GBEg+VAlJzD5mz/DQ1FjQxSg6ZL1LnOWQYz+l281VJxyvurE5MOyiKMAIiqN/nFXci0qnnW9YgMJOQJ49b2fHROKWy3oh6zhpbOa4IwxuTG8F2nAHBmhq05VPAklaQbvl2z6AnK16eT9+BhIwkx2bFd/AcmHZKyZvIpZEPA3/wYHAIAOyu8K+TCU9x4Yi6tUv6mFl0RaZu3+gwWZ4DZf6XbyJttOlqUGVmERTmo4Fyjl9QMYgxk367fRiCoUA="
   additional:
     queue:
-      parameters: &prefetchCount=25&prefetchEnabled=true
+      parameters: "&prefetchCount=25&prefetchEnabled=true"

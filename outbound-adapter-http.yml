@@ -1,0 +1,6 @@
+# B2B Config
+b2b:
+  outbound:
+    http:
+      address: http4://caml-fwd.camltest:8088/api/http
+      password:
